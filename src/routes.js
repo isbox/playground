@@ -10,6 +10,8 @@ import AudioDemo06 from './pages/audio-api/index06';
 import AudioDemo07 from './pages/audio-api/index07';
 import ThreeDemo from './pages/three';
 
+import WebglDemo01 from './pages/webgl/demo01';
+
 export default () => {
   return (
     <Router>
@@ -23,6 +25,7 @@ export default () => {
         <Route path="/audio-api/index06" exact component={AudioDemo06} />
         <Route path="/audio-api/index07" exact component={AudioDemo07} />
         <Route path="/three" exact component={ThreeDemo} />
+        <Route path="/webgl/demo01" exact component={WebglDemo01} />
       </Switch>
     </Router>
   );
